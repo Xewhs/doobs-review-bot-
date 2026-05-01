@@ -1,15 +1,15 @@
 {
-  "name": "doobs-review-bot",
-  "version": "1.0.0",
-  "description": "Custom Discord review bot for Doobs Uploading Services.",
-  "main": "src/index.js",
-  "type": "commonjs",
+  "name": "doobs-staff-bot",
+  "version": "2.0.0",
+  "description": "Doobs Uploading Services review and staff moderation bot",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node src/index.js",
-    "deploy": "node src/deploy-commands.js"
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
   },
   "dependencies": {
-    "discord.js": "^14.26.2",
+    "discord.js": "^14.18.0",
     "dotenv": "^16.4.7"
   }
 }
